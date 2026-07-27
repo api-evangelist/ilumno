@@ -1,9 +1,24 @@
 aid: ilumno
 name: Ilumno
-description: 'Ilumno is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Ilumno is a Latin American education technology company that helps higher education
+  institutions grow and modernize through digital transformation. Its services span student acquisition
+  and retention (Growth), online and virtual learning platforms (Virtuality), and real-time analytics
+  and student-data management tools, all delivered on its Growth Engine technology platform. Ilumno
+  reports supporting more than 220,000 students across the region, with offices in Bogota (Colombia),
+  Dallas (USA) and Amsterdam (Netherlands). The company is backed by Insight Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/ilumno/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.ilumno.com/wp-content/uploads/2024/01/img-logos-ilumno.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Education
+- Higher Education
+- EdTech
+- Online Learning
+- Student Analytics
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ilumno-domain-security.yml
 - type: Website
-  url: http://ilumno.com/en/inversores/
+  url: https://www.ilumno.com/
+- type: PrivacyPolicy
+  url: https://www.ilumno.com/wp-content/uploads/2023/06/politica_datos.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -7,6 +7,17 @@ description: 'Ilumno is a Latin American education technology company that helps
   reports supporting more than 220,000 students across the region, with offices in Bogota (Colombia),
   Dallas (USA) and Amsterdam (Netherlands). The company is backed by Insight Partners.'
 url: https://raw.githubusercontent.com/api-evangelist/ilumno/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
